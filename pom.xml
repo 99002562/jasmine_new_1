@@ -197,12 +197,7 @@
 
 
     <!-- All the test dependencies should be declared in this section -->
-<dependency>
-  <groupId>org.webjars</groupId>
-  <artifactId>jasmine</artifactId>
-  <version>3.6.0</version>
-  <scope>test</scope>
-</dependency>
+
     <dependencies>
         <!-- Api Level Testing -->
         <dependency>
@@ -210,6 +205,12 @@
             <artifactId>rest-assured</artifactId>
             <version>${rest-assured}</version>
         </dependency>
+             <dependency>
+  <groupId>org.webjars</groupId>
+  <artifactId>jasmine</artifactId>
+  <version>3.6.0</version>
+  <scope>test</scope>
+</dependency>
         <!-- Api Level Testing -->
         <dependency>
             <groupId>io.cucumber</groupId>
